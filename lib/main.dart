@@ -149,7 +149,7 @@ class AnaSayfa extends StatelessWidget {
                     ),
                   ],
                 ),
-              ),
+              ),  
             ),
           ],
         ),
@@ -157,3 +157,4 @@ class AnaSayfa extends StatelessWidget {
     );
   }
 }
+// BU UYGULAMA MOBİL PROGRAMLAMA DERSİ KAPSAMINDA GELİŞTİRİLMİŞTİR
