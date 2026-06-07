@@ -117,7 +117,7 @@ class AnaSayfa extends StatelessWidget {
             ),
             SizedBox(height: 20),
             
-            // İşlem Geçmişi Sayfasına Yönlendiren Butonudur
+            // İşlem Geçmişi Sayfasına Yönlendirme Butonudur
             Container(
               width: double.infinity,
               height: 60,
