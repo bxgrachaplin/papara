@@ -32,7 +32,7 @@ class IslemGecmisiSayfasi extends StatelessWidget {
  
   Widget islemSatiri(IconData ikon, String baslik, String altBaslik, String tutar, Color renk) {
     return Card(
-      color: Colors.grey[900], // Papara koyu tema tasarımı için uygun gri tonu.
+      color: Colors.grey[900], // Papara koyu tema tasarımıdır
       margin: const EdgeInsets.only(bottom: 15),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
@@ -69,7 +69,7 @@ class IslemGecmisiSayfasi extends StatelessWidget {
                 ),
               ],
             ),
-            // Sağ taraftaki işlem tutarı Renk parametresiyle gelir/gider ayrımı görselleştirildi
+            // Sağ taraftaki işlem tutarı Renk parametresiyle gelir/gider ayrımı görselleştirdim
             Text(
               tutar, 
               style: TextStyle(
