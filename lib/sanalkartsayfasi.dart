@@ -8,7 +8,7 @@ class KartSayfasi extends StatefulWidget {
 
 // ana kart bilgileridir
 class _KartSayfasiState extends State<KartSayfasi> {
-  // Sınıf içi durum (state) değişkenleri.
+  // Sınıf içideğişkenlerdir
   String anaKartNo = "5342  1234 5678 9012";
   String anaKartIsim = "Buğra Turgut";
   
@@ -51,7 +51,7 @@ class _KartSayfasiState extends State<KartSayfasi> {
           const Text("Ana Kartım", style: TextStyle(color: Colors.grey, fontSize: 18)),
           const SizedBox(height: 10),
           
-          // kartTasarimi fonksiyonu kullanılarak ana kart yapılıyor
+          // kart Tasarimi fonksiyonu kullanılarak ana kart yapılıyor
           kartTasarimi(anaKartNo, anaKartIsim, Colors.purple),
           
           const SizedBox(height: 30),
@@ -75,7 +75,7 @@ class _KartSayfasiState extends State<KartSayfasi> {
           
           const SizedBox(height: 20),
           
-          // Geri bildirim mesajı alanıdır
+          // Geri bildirim mesaj alanıdır
           Text(
             mesaj, 
             textAlign: TextAlign.center, 
@@ -86,7 +86,7 @@ class _KartSayfasiState extends State<KartSayfasi> {
     );
   }
 
-  // Kart tasarımı bölümüdür
+  // Kart tasarım bölümüdür
   Widget kartTasarimi(String numara, String isim, Color renk) {
     return Container(
       height: 190, // 
@@ -99,7 +99,7 @@ class _KartSayfasiState extends State<KartSayfasi> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Logo ve temassız ödeme sembolüdür
+          // Logo ve temassız ödeme sembolü
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [

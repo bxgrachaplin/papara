@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class IslemGecmisiSayfasi extends StatelessWidget {
   
-  const IslemGecmisiSayfasi({Key? key}) : super(key: key);
+  const IslemGecmisiSayfasi();
 
   @override
   Widget build(BuildContext context) {
@@ -32,14 +32,14 @@ class IslemGecmisiSayfasi extends StatelessWidget {
  
   Widget islemSatiri(IconData ikon, String baslik, String altBaslik, String tutar, Color renk) {
     return Card(
-      color: Colors.grey[900], // Papara koyu tema tasarımıdır
+      color: Colors.grey[900], // Papara koyu tema tasarımı
       margin: const EdgeInsets.only(bottom: 15),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            // Sol taraftaki İkon Başlık ve Alt Başlıktır
+            // Sol taraftaki İkon Başlık ve Alt Başlık
             Row(
               children: [
                 CircleAvatar(
