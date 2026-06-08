@@ -16,7 +16,7 @@ class PaparaKlonUygulamasi extends StatelessWidget {
   }
 }
 
-// Cüzdan bakiyesi ve sayfa yönlendirmelerini içerir
+// Cüzdan bakiyesi ve sayfa yönlendirmeleri 
 class AnaSayfa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -81,7 +81,7 @@ class AnaSayfa extends StatelessWidget {
             ),
             SizedBox(height: 40),
             
-            // Kartlarım Sayfasına Yönlendiren Butonudur
+            // Kartlarım Sayfasına Yönlendiren kodlar
             Container(
               width: double.infinity,
               height: 60,
@@ -117,7 +117,7 @@ class AnaSayfa extends StatelessWidget {
             ),
             SizedBox(height: 20),
             
-            // İşlem Geçmişi Sayfasına Yönlendirme Butonudur
+            // İşlem Geçmişi Sayfasına Yönlendirme 
             Container(
               width: double.infinity,
               height: 60,
